@@ -11,7 +11,7 @@ class BottlesTest < Minitest::Test
   end
 
   def test_another_verse
-    skip
+    # skip
     expected = "3 bottles of beer on the wall, " +
       "3 bottles of beer.\n" +
       "Take one down and pass it around, " +
@@ -20,7 +20,7 @@ class BottlesTest < Minitest::Test
   end
 
   def test_verse_2
-    skip
+    # skip
     expected = "2 bottles of beer on the wall, " +
       "2 bottles of beer.\n" +
       "Take one down and pass it around, " +
@@ -29,7 +29,7 @@ class BottlesTest < Minitest::Test
   end
 
   def test_verse_1
-    skip
+    # skip
     expected = "1 bottle of beer on the wall, " +
       "1 bottle of beer.\n" +
       "Take it down and pass it around, " +
